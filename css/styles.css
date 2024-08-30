@@ -6,7 +6,7 @@ body {
 .form-container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg,violet,gray);
+    background: linear-gradient(135deg,black,gray);
     padding:15px;
 }
 .app { 
@@ -66,7 +66,7 @@ ul li::before {
     left: 0px ;
 }
 ul li.checked { 
-    color: violet;
+    color: gray;
     text-decoration: line-through;
 }
 ul li.checked::before{ 
@@ -78,4 +78,9 @@ ul li.checked::before{
     background-size: cover;
     top: 5px ;
     left: 0px ;
+}
+li span{ 
+    position: absolute;
+    right: 0px ;
+    top:5px; 
 }
