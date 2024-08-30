@@ -84,3 +84,15 @@ li span{
     right: 0px ;
     top:5px; 
 }
+@media screen and (max-width:768px) {
+    .app { 
+        width: 70%;
+        margin: 50px auto 50px;
+
+    }
+    li span{  
+        right: 20px ;
+        top:5px; 
+        
+    }
+}
